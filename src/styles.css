@@ -26,8 +26,9 @@ body {
 .icon {
   color: #fff;
   position: absolute;
-  top: -20px;
+  top: -100px;
   animation: fall linear forwards;
+  animation-iteration-count: infinite;
 }
 
 @keyframes fall {
