@@ -51,7 +51,7 @@ export default function App() {
         />
       );
 
-      if (snowArr.length > 100) {
+      if (snowArr.length >= 100) {
         const newSnowArr = snowArr.slice(1);
         setSnow([...newSnowArr, snowFlake]);
       } else {
